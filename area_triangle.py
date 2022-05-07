@@ -30,7 +30,7 @@ def main():
             height_user_float = float(height_user_str)
 
             # sets a range
-            if base_user_float >= 0 and height_user_float >= 0:
+            if base_user_float > 0 and height_user_float > 0:
                 # calls function
                 calculate_area(base_user_float, height_user_float)
             else:
